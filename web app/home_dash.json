@@ -1,0 +1,50 @@
+{
+  "ui": [
+    {
+      "type": "sidebar",
+      "color": "#3827F5",
+      "items": [
+        {
+          "icon": "home",
+          "label": "Dashboard",
+          "onclick": {
+            "1": {
+              "type": "navigation",
+              "app_id": "cc9P8gZ",
+              "view_id": "Home_Dash"
+            }
+          }
+        },
+        {
+          "icon": "user",
+          "label": "Customer",
+          "onclick": {
+            "1": {
+              "type": "navigation",
+              "app_id": "cc9P8gZ",
+              "view_id": "users"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "text": "Welcome User",
+      "type": "text",
+      "color": "#3827F5",
+      "font_size": 24,
+      "font_weight": "600",
+      "margin_bottom": 16
+    }
+  ],
+  "label": "Home Dashboard",
+  "app_id": "cc9P8gZ",
+  "colour": "#3827F5",
+  "margin": {
+    "top": 24,
+    "left": 24,
+    "right": 24,
+    "bottom": 24
+  },
+  "view_id": "home_dash"
+}
